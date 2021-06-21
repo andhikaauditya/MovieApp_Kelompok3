@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_nav_movie"
+        android:title="Movie"
+        android:icon="@drawable/movie"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_nav_tv"
+        android:title="TV"
+        android:icon="@drawable/tv"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_bottomnav_call"
+        android:title="Bantuan"
+        android:icon="@drawable/call"
+        app:showAsAction="ifRoom"/>
+</menu>
